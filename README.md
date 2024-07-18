@@ -1,5 +1,6 @@
 # 💫 About Me:
 - 👋 Hi, I’m @Arthur-Fialho<br>- 🌱 I’m currently learning Web3, Blockchain, Smart Contracts.
+- Rust
 - Solidity | Foundry | Ethereum.
 
 
