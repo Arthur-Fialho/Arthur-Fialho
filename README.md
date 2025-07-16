@@ -12,7 +12,6 @@
 
 ## 🌟 About Me
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/adamalston/adamalston/master/assets/anime.gif">
 
 - 🔭 Currently diving deep into **Web3, Blockchain & Smart Contracts**
 - 🌱 Mastering **Rust** for high-performance blockchain applications
@@ -111,7 +110,6 @@ fn main() {
 
 ### 🏆 "Code is like humor. When you have to explain it, it's bad." - Cory House
 
-![Profile Views](https://visitcount.itsvg.in/api?id=Arthur-Fialho&icon=6&color=6)
 
 ---
 
