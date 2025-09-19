@@ -31,6 +31,7 @@
 | :--- | :--- | :--- | :--- |
 | **Portfólio Full-Stack** | Uma aplicação completa com API RESTful para gerir o conteúdo do portfólio e um front-end reativo para exibi-lo. Totalmente containerizada e implantada na AWS. | `Java` `Spring Boot` `React` `PostgreSQL` `Docker` `AWS` | **[Ver Online](https://arthurfialho.com.br/)** • **[API (Back-end)](https://github.com/Arthur-Fialho/API-Java-Portfolio)** • **[Site (Front-end)](https://github.com/Arthur-Fialho/API-Java-Portfolio-Frontend)** |
 | **ScholarFlow WCHL25** | DApp criado na blockchain da ICP para o Hackathon WCHL(World Computer Hacker League) 2025. O projeto avançou para a segunda fase da competição e está em construção. | `Motoko` `Rust` `React` `TypeScript` `Node.js` `DFX` | **[Ver Repositório](https://github.com/Arthur-Fialho/WCHL25-ScholarFlow)** |
+| **API de Registo de Veículos - ASP.NET Core Minimal API** | Uma API RESTful moderna construída com C# e ASP.NET Core Minimal APIs para gerir o registo de veículos. A aplicação implementa um sistema de autenticação seguro com JWT e autorização baseada em perfis (Roles) para controlar o acesso às operações de CRUD. | `C#` `.NET9` `ASP.NETCore` | **[Ver Repositório](https://github.com/Arthur-Fialho/API-VehicleRegistry)** |
 | **Crypto em Pauta** | Site criado para partilhar conteúdo e artigos sobre Criptoativos e Web3. | `WordPress` `JavaScript` `HTML` `CSS` | **[Acessar](https://cryptoempauta.com)** |
 
 </div>
