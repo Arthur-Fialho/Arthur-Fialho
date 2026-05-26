@@ -2,7 +2,7 @@
 
 # 👋 Olá! Eu sou o Arthur Fialho
 
-### 🚀 Software Engineer | Backend & Full-Stack | Clean Architecture & DevSecOps Specialist
+### 🚀 Software Engineer | Backend & Full-Stack | Clean Architecture
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=058C42&center=true&vCenter=true&width=600&lines=Software+Engineer;Full-Stack+Developer;Clean+Architecture+%26+TDD+Evangelist;DevSecOps+%26+Self-Hosting+Expert;" alt="Typing SVG" />
 
@@ -18,7 +18,7 @@ Sou desenvolvedor **Full-Stack / Software Engineer** focado em construir sistema
 
 *   **Arquitetura Limpa (Clean Architecture) & DDD:** Defensor ferrenho da separação de preocupações e independência de frameworks. Estruturo projetos para que as regras de negócio permaneçam isoladas de detalhes de infraestrutura (bancos de dados, APIs ou interfaces de usuário).
 *   **Desenvolvimento Orientado a Testes (TDD):** Implemento suítes robustas de testes unitários e de integração (utilizando `xUnit` no ecossistema .NET e `Vitest` no React). O teste não é uma etapa final, mas parte do design do software.
-*   **DevSecOps & Infraestrutura Independente:** Especialista em containerização com **Docker** e **Docker Compose**, criando ambientes isolados em redes internas e deploy seguro em **Linux VPS** com servidores reversos **Nginx**. Foco em eficiência de recursos e na eliminação de dependência (lock-in) de nuvens proprietárias.
+*   **DevSecOps & Infraestrutura Independente:** Mantenho meus projetos usando containerização com **Docker** e **Docker Compose**, criando ambientes isolados em redes internas e deploy seguro em **Linux VPS** com servidores reversos **Nginx**. Foco em eficiência de recursos e na eliminação de dependência (lock-in) de nuvens proprietárias.
 *   **Engenharia de IA & Automação:** Desenvolvimento de integrações práticas com LLMs (**Google Gemini AI**) para curadoria inteligente de dados, automação de processos de negócios e enriquecimento dinâmico de conteúdo.
 *   **Backend de Alto Desempenho:** Domínio nas plataformas **.NET (C#)** e **Java (Spring Boot)**, lidando com processamento em segundo plano (Hangfire), filas, cache (Redis) e segurança avançada (Spring Security / JWT).
 
@@ -105,13 +105,5 @@ Acredito que compartilhar conhecimento é fundamental para impulsionar a tecnolo
 </div>
 
 ---
-
-## 📊 Estatísticas no GitHub
-
-<div align="center">
-  
-![Arthur's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Arthur-Fialho&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Arthur-Fialho&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
 </div>
