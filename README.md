@@ -1,87 +1,96 @@
 <div align="center">
-  
+
 # 👋 Olá! Eu sou o Arthur Fialho
 
-### 🚀 Desenvolvedor Full-Stack | Web2 | Web3 | Blockchain
+### 🚀 Software Engineer | Backend & Full-Stack | Clean Architecture & DevSecOps Specialist
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Bem-vindo+ao+meu+Perfil+do+GitHub!;Desenvolvedor+Full-Stack;" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=058C42&center=true&vCenter=true&width=600&lines=Software+Engineer;Full-Stack+Developer;Clean+Architecture+%26+TDD+Evangelist;DevSecOps+%26+Self-Hosting+Expert;" alt="Typing SVG" />
 
 </div>
 
 ---
 
-## 🌟 Sobre Mim
+## 🌟 Sobre Mim & Pilares de Engenharia
 
-- 🎓 Estudante de Ciência da Computação apaixonado por construir soluções de software robustas e de ponta a ponta.
-- ☕ Foco principal em **desenvolvimento back-end**.
-- ⚛️ Experiência na criação de interfaces dinâmicas e responsivas com **React**.
-- ☁️ Conhecimentos práticos em **arquitetura de nuvem e DevOps**, com deploy de aplicações completas na **AWS**.
-- 💡 Além da minha base em Web2, tenho um forte interesse em tecnologias emergentes, com conhecimentos em **Blockchain e Web3**.
-- 🌍 Residente no Brasil, a construir projetos e comunidades.
+Sou desenvolvedor **Full-Stack / Software Engineer** focado em construir sistemas de alta performance, escaláveis e seguros. Minha abordagem de desenvolvimento baseia-se em princípios sólidos de engenharia de software, garantindo que o código entregue hoje permaneça manutenível e extensível no futuro.
 
-<br clear="right"/>
+### 🛡️ Meus Pilares Profissionais:
+
+*   **Arquitetura Limpa (Clean Architecture) & DDD:** Defensor ferrenho da separação de preocupações e independência de frameworks. Estruturo projetos para que as regras de negócio permaneçam isoladas de detalhes de infraestrutura (bancos de dados, APIs ou interfaces de usuário).
+*   **Desenvolvimento Orientado a Testes (TDD):** Implemento suítes robustas de testes unitários e de integração (utilizando `xUnit` no ecossistema .NET e `Vitest` no React). O teste não é uma etapa final, mas parte do design do software.
+*   **DevSecOps & Infraestrutura Independente:** Especialista em containerização com **Docker** e **Docker Compose**, criando ambientes isolados em redes internas e deploy seguro em **Linux VPS** com servidores reversos **Nginx**. Foco em eficiência de recursos e na eliminação de dependência (lock-in) de nuvens proprietárias.
+*   **Engenharia de IA & Automação:** Desenvolvimento de integrações práticas com LLMs (**Google Gemini AI**) para curadoria inteligente de dados, automação de processos de negócios e enriquecimento dinâmico de conteúdo.
+*   **Backend de Alto Desempenho:** Domínio nas plataformas **.NET (C#)** e **Java (Spring Boot)**, lidando com processamento em segundo plano (Hangfire), filas, cache (Redis) e segurança avançada (Spring Security / JWT).
 
 ---
 
 ## 🏆 Projetos em Destaque
 
+Aqui estão os 4 projetos principais desenvolvidos recentemente, refletindo práticas modernas de engenharia, testes rigorosos e conteinerização completa:
+
+### 1. 🚗 GarAgil — Plataforma SaaS B2B Inteligente para Oficinas
+> Plataforma SaaS B2B moderna, integrada com Inteligência Artificial, projetada para otimizar e automatizar o fluxo operacional diário de oficinas mecânicas, reduzindo a burocracia e melhorando o relacionamento com o cliente.
+
+*   **Arquitetura & Engenharia:** Implementação estrita de **Clean Architecture** e **Domain-Driven Design (DDD)**. Desenvolvimento 100% orientado por **TDD (Test-Driven Development)**, garantindo cobertura total de regras de domínio.
+*   **Principais Funcionalidades:** Ordem de serviço inteligente, agendamento automatizado, gestão de estoque e assistente de IA para diagnósticos iniciais de falhas mecânicas.
+*   **Stack Tecnológica:** `C#` • `.NET 8` • `Entity Framework Core` • `SQLite` • `xUnit` • `React` • `Tailwind CSS` • `Nginx` • `Docker`
+*   **Repositório:** [Arthur-Fialho/GarAgil](https://github.com/Arthur-Fialho/GarAgil)
+
+---
+
+### 2. 📰 Crypto Em Pauta — Curadoria Cripto Automatizada via IA
+> Plataforma Full-Stack voltada para agregação de notícias e análise do mercado de criptoativos, monetizada através de paywall e enriquecida por Inteligência Artificial.
+
+*   **Arquitetura & Engenharia:** Sistema baseado em background workers (**Hangfire**) que coletam dados em tempo real (DefiLlama, Binance API) e feeds RSS globais. Um pipeline inteligente traduz, sintetiza e contextualiza as notícias usando a API do **Google Gemini**, gerando também imagens ilustrativas futuristas automaticamente.
+*   **Principais Funcionalidades:** Funil próprio de email marketing transacional via SMTP seguro, autenticação multi-provedores com NextAuth, integração de pagamentos recorrentes com **Stripe API**, e otimização de cache/performance com **Redis**.
+*   **Stack Tecnológica:** `Next.js` • `TypeScript` • `React` • `Tailwind CSS` • `C#` • `.NET 8` • `PostgreSQL` • `Redis` • `Resend` • `Stripe API` • `Gemini AI` • `Nginx` • `Docker`
+*   **Website:** [cryptoempauta.com](https://cryptoempauta.com)
+
+---
+
+### 3. ☕ API Java Portfolio — Backend Corporativo & Gerenciamento Seguro
+> API RESTful robusta desenvolvida sob medida para centralizar e gerenciar de forma dinâmica as informações de portfólio, projetos e tecnologias.
+
+*   **Arquitetura & Engenharia:** Aplicação focada em segurança corporativa e boas práticas REST. Controle completo de acessos e autenticação sem estado utilizando tokens **JWT (JSON Web Tokens)** e **Spring Security**. Tratamento de erros centralizado com respostas globais estruturadas e migração de banco de dados evolutiva e versionada com **Flyway**.
+*   **Principais Funcionalidades:** Gerenciamento CRUD completo com validação de dados DTO na camada de entrada e paginação otimizada.
+*   **Stack Tecnológica:** `Java` • `Spring Boot 3` • `Spring Security (JWT)` • `Spring Data JPA` • `PostgreSQL` • `Flyway` • `Docker`
+*   **Repositório:** [Arthur-Fialho/API-Java-Portfolio](https://github.com/Arthur-Fialho/API-Java-Portfolio)
+
+---
+
+### 4. 🎮 Guess-Number — Web App Full-Stack & Showcase de Testes
+> Aplicação interativa de adivinhação numérica com três níveis de dificuldade, placar de líderes global e estatísticas de jogo em tempo real.
+
+*   **Arquitetura & Engenharia:** Desenvolvido como modelo de demonstração para pipelines de Integração Contínua (CI) e pirâmide de testes completa. Possui uma suíte abrangente de testes de integração e unitários no backend (com `xUnit`) e testes automatizados de componentes frontend (com `Vitest`).
+*   **Principais Funcionalidades:** Geração de desafios aleatórios controlados por semente, histórico persistente de tentativas e leaderboard dinâmico persistido em banco relacional leve.
+*   **Stack Tecnológica:** `React` • `TypeScript` • `ASP.NET Core Web API` • `Entity Framework Core` • `SQLite` • `xUnit` • `Vitest`
+*   **Repositório:** [Arthur-Fialho/Guess-Number](https://github.com/Arthur-Fialho/Guess-Number)
+
+---
+
+## 🛠️ Tecnologias & Ferramentas
+
 <div align="center">
 
-| Projeto | Descrição | Tecnologias | Links |
-| :--- | :--- | :--- | :--- |
-| **Portfólio Full-Stack** | Uma aplicação completa com API RESTful para gerir o conteúdo do portfólio e um front-end reativo para exibi-lo. Totalmente containerizada e implantada na AWS. | `Java` `Spring Boot` `React` `PostgreSQL` `Docker` `AWS` | **[Ver Online](https://arthurfialho.com.br/)** • **[API (Back-end)](https://github.com/Arthur-Fialho/API-Java-Portfolio)** • **[Site (Front-end)](https://github.com/Arthur-Fialho/API-Java-Portfolio-Frontend)** |
-| **ScholarFlow WCHL25** | DApp criado na blockchain da ICP para o Hackathon WCHL(World Computer Hacker League) 2025. O projeto avançou para a segunda fase da competição e está em construção. | `Motoko` `Rust` `React` `TypeScript` `Node.js` `DFX` | **[Ver Repositório](https://github.com/Arthur-Fialho/WCHL25-ScholarFlow)** |
-| **Microservices-Ecommerce-Dotnet** | Projeto de um sistema de e-commerce back-end com arquitetura de microserviços, focado em resiliência, escalabilidade e segurança. O sistema simula o gerenciamento de Estoque e Vendas, utilizando comunicação síncrona e assíncrona, um API Gateway para acesso centralizado e autenticação via JWT. | `C#` `.NET9` `EF Core` `SQLServer` `RabbitMQ` `Docker` `JWT` | **[Ver Repositório](https://github.com/Arthur-Fialho/Microservices-Ecommerce-Dotnet)** |
-| **API de Registo de Veículos - ASP.NET Core Minimal API** | Uma API RESTful moderna construída com C# e ASP.NET Core Minimal APIs para gerir o registo de veículos. A aplicação implementa um sistema de autenticação seguro com JWT e autorização baseada em perfis (Roles) para controlar o acesso às operações de CRUD. | `C#` `.NET9` `ASP.NETCore` | **[Ver Repositório](https://github.com/Arthur-Fialho/API-VehicleRegistry)** |
-| **Guess-Number** | Web App "Adivinhe o Número" com backend em .NET e frontend em React. O projeto consiste em uma aplicação web onde o usuário deve adivinhar um número secreto. O jogo possui três níveis de dificuldade, um placar de líderes e um design simples e intuitivo. | `C#` `.NET9` `ASP.NETCore` `SQL Lite` `React` `SASS` `Axios` `xUnit` `Vitest` `EF Core` | **[Ver Repositório](https://github.com/Arthur-Fialho/Guess-Number)** |
-| **Crypto em Pauta** | Site criado para partilhar conteúdo e artigos sobre Criptoativos e Web3. | `WordPress` `JavaScript` `HTML` `CSS` | **[Acessar](https://cryptoempauta.com)** |
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Linguagens & Frameworks** | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET 8/9](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot 3](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
+| **Frontend Web** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
+| **Banco de Dados & Cache** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
+| **Infraestrutura & DevSecOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Linux VPS](https://img.shields.io/badge/Linux_VPS-FCC624?style=flat-square&logo=linux&logoColor=black) |
+| **Testes (QA)** | ![xUnit](https://img.shields.io/badge/xUnit-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) |
 
 </div>
 
 ---
 
-## 🛠️ Stack de Tecnologias
+## 🌍 Atuação e Iniciativas de Comunidade
 
-<div align="center">
-  <p>
-    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-    <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Boot"/>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
-    <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
-    <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
-    <br>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-    <br>
-    <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity"/>
-    <img src="https://img.shields.io/badge/Blockchain-blueviolet?style=for-the-badge&logo=bitcoin" alt="Blockchain"/>
-    <img src="https://img.shields.io/badge/Web3-6A0DAD?style=for-the-badge" alt="Web3"/>
-    <img src="https://img.shields.io/badge/Motoko-292929?style=for-the-badge" alt="Motoko"/>
-    <img src="https://img.shields.io/badge/Foundry-333333?style=for-the-badge" alt="Foundry"/>
-    <br>
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-    <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-    <br>
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
-    <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=WordPress&logoColor=white" alt="WordPress"/>
-  </p>
-</div>
+Acredito que compartilhar conhecimento é fundamental para impulsionar a tecnologia. Minha atuação inclui:
 
----
-
-## 🌍 Iniciativas de Comunidade
-
-A minha paixão por tecnologia estende-se à criação de comunidades e à partilha de conhecimento.
-- **Fundador da Crypto em Pauta:** Comunidade para democratizar o acesso à informação sobre blockchain em português.
-- **Embaixador da Stellar no Brasil:** Produção de conteúdo técnico para o canal oficial da Stellar Brasil.
-- **Criador do Web3BH:** Evento para fortalecer a comunidade de desenvolvedores em Belo Horizonte.
+*   **Direção do Portal Crypto Em Pauta:** Plataforma dedicada a descomplicar finanças descentralizadas, blockchain e Web3 em língua portuguesa.
+*   **Embaixador Stellar Brasil:** Redação de artigos técnicos, tutoriais práticos e curadoria de conteúdo educativo para a Stellar Development Foundation no Brasil.
+*   **Idealizador do Web3BH:** Evento regional comunitário desenhado para conectar e engajar desenvolvedores locais interessados em soluções descentralizadas em Belo Horizonte/MG.
 
 ---
 
@@ -90,14 +99,14 @@ A minha paixão por tecnologia estende-se à criação de comunidades e à parti
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthurfialho/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-36BCF7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://arthurfialho.com.br/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-058C42?style=for-the-badge&logo=google-chrome&logoColor=white)](https://arthurfialho.com.br/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arthursouza.fp@gmail.com)
 
 </div>
 
 ---
 
-## 📊 As Minhas Estatísticas no GitHub
+## 📊 Estatísticas no GitHub
 
 <div align="center">
   
@@ -106,5 +115,3 @@ A minha paixão por tecnologia estende-se à criação de comunidades e à parti
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Arthur-Fialho&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
 </div>
-
----
